@@ -16,12 +16,12 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Gata\nBot\nMD', {
+say('Harry\nBot\nWA', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-say(`Por Gata Dios`, {
+say(`Por Icaro`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
@@ -61,7 +61,7 @@ function start(file) {
   })
   p.on('exit', (_, code) => {
     isRunning = false
-    console.error('❎ㅤOcurrio un error inesperado:', code)
+    console.error('❎ㅤOcorreu um erro inesperado:', code)
     if (code === 0) return
     watchFile(args[0], () => {
       unwatchFile(args[0])
