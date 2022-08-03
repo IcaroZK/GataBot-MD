@@ -163,14 +163,14 @@ global.reloadHandler = async function (restatConn) {
   }
   
   //Información para Grupos
-  conn.welcome = '*╭┈⊰* @subject *⊰┈ ✦*\n*┃✨ BIENVENIDO(A)!!*\n┃💖 @user\n┃📄 *LEA LA DESCRIPCIÓN DEL GRUPO*\n*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ ✦*\n\n@desc'
+  conn.welcome = '*╭┈⊰* @subject *⊰┈ ✦*\n*┃✨ BEM-VINDO(A)!!*\n┃💖 @user\n┃📄 *LEIA A DESCRIÇÃO DO GRUPO*\n*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ ✦*\n\n@desc'
   conn.bye = '*╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰*\n┃ @user\n┃ *NO LE SABE AL GRUPO, CHAO!!* 😎\n*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰*'
-  conn.spromote = '*@user 𝘼𝙃𝙊𝙍𝘼 𝙀𝙎 𝘼𝘿𝙈𝙄𝙉 𝙀𝙉 𝙀𝙎𝙏𝙀 𝙂𝙍𝙐𝙋𝙊!!*\n\n*𝙉𝙊𝙒 𝙃𝙀 𝙄𝙎 𝘼𝘿𝙈𝙄𝙉 𝙄𝙉 𝙏𝙃𝙄𝙎 𝙂𝙍𝙊𝙐𝙋!!*'
-  conn.sdemote = '*@user 𝘿𝙀𝙅𝘼 𝘿𝙀 𝙎𝙀𝙍 𝘼𝘿𝙈𝙄𝙉 𝙀𝙉 𝙀𝙎𝙏𝙀 𝙂𝙍𝙐𝙋𝙊!!*\n\n*𝙎𝙏𝙊𝙋 𝘽𝙀𝙄𝙉𝙂 𝘼𝘿𝙈𝙄𝙉 𝙄𝙉 𝙏𝙃𝙄𝙎 𝙂𝙍𝙊𝙐𝙋!!*'
-  conn.sDesc = '*𝙇𝘼 𝙉𝙐𝙀𝙑𝘼 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 𝙀𝙎:*\n\n*𝙏𝙃𝙀 𝙉𝙀𝙒 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝙏𝙄𝙊𝙉 𝙊𝙁 𝙏𝙃𝙀 𝙂𝙍𝙊𝙐𝙋 𝙄𝙎:*\n@desc'
-  conn.sSubject = '*𝙀𝙇 𝙉𝙐𝙀𝙑𝙊 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊 𝙀𝙎:*\n\n*𝙏𝙃𝙀 𝙉𝙀𝙒 𝙉𝘼𝙈𝙀 𝙊𝙁 𝙏𝙃𝙀 𝙂𝙍𝙊𝙐𝙋 𝙄𝙎:*\n@subject'
-  conn.sIcon = '*𝙎𝙀 𝙃𝘼 𝘾𝘼𝙈𝘽𝙄𝘼𝘿𝙊 𝙇𝘼 𝙁𝙊𝙏𝙊 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊!!*\n\n𝙏𝙃𝙀 𝙂𝙍𝙊𝙐𝙋 𝙋𝙃𝙊𝙏𝙊 𝙃𝘼𝙎 𝘽𝙀𝙀𝙉 𝘾𝙃𝘼𝙉𝙂𝙀𝘿!!'
-  conn.sRevoke = '*𝘼𝙃𝙊𝙍𝘼 𝙀𝙎𝙏𝙀 𝙀𝙎 𝙀𝙇 𝙉𝙐𝙀𝙑𝙊 𝙀𝙉𝙇𝘼𝘾𝙀 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊!!*\n\n*𝙉𝙊𝙒 𝙏𝙃𝙄𝙎 𝙄𝙎 𝙏𝙃𝙀 𝙉𝙀𝙒 𝙇𝙄𝙉𝙆 𝙊𝙁 𝙏𝙃𝙀 𝙂𝙍𝙊𝙐𝙋!!*\n\n*@revoke*'
+  conn.spromote = '*@user AGORA É ADMIN DESTE GRUPO!!*\n\n*NOW HE IS ADMIN IN THIS GROUP!!*'
+  conn.sdemote = '*@user DEIXOU DE SER ADMIN DESTE GRUPO!!*\n\n*STOP BEING ADMIN IN THIS GROUP!!*'
+  conn.sDesc = '*NOVA DISCRIÇÃO DO GRUPO:*\n\n*THE NEW DESCRIPTION OF THE GROUP IS:*\n@desc'
+  conn.sSubject = '*NOVO NOME DO GRUPO:*\n\n*THE NEW NAME OF THE GROUP IS:*\n@subject'
+  conn.sIcon = '*FOTO DO GRUPO ALTERADA!!*\n\nTHE GROUP PHOTO HAS BEEN CHANGED!!'
+  conn.sRevoke = '*AGORA ESTE É O NOVO LINK DO GRUPO!!*\n\n*NOW THIS IS THE NEW LINK OF THE GROUP!!*\n\n*@revoke*'
   
   conn.handler = handler.handler.bind(global.conn)
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
