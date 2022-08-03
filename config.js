@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url'
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰
 global.owner = [
-  ['557996096237', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈', true],
+  ['557996096237', 'HarryBOT 🤖', true],
   ['557996096237'],
   ['557996096237'],
   ['557996096237']
@@ -70,39 +70,39 @@ global.APIKeys = { // APIKey Here
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = '🐈 𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
-global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+global.packname = '🤖 HarryBOT'
+global.author = '🤖'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
-//⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
+//⊱ ━━━━━.⋅ Versão | Nome | Contas ⋅.━━━━ ⊰
 
 global.vs = '1.1.25'
 global.version = vs
 
-global.gt = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
+global.gt = 'HarryBOT'
 global.gatabot = gt
 
-global.yt = 'https://youtube.com/channel/UCpNU4eY7eiI0ve05CssjdbA'
+global.yt = 'XD'
 global.youtube = yt
 
-global.ig = 'https://www.instagram.com/gata_dios'
+global.ig = 'XD'
 global.gatadiosig = ig
 
-global.md = 'https://github.com/GataNina-Li/GataBot-MD'
+global.md = 'XD'
 global.gatabot = md
 
-global.nn = 'https://chat.whatsapp.com/CunoFmEfBW75APfI0ZO5DJ'
+global.nn = 'XD'
 global.nngrupo = nn //Grupo 1
 
-global.nnn = 'https://chat.whatsapp.com/FvWByAGQIoRHH9FwrgB35E'
+global.nnn = 'XD'
 global.nnngrupo = nnn //Grupo 2
 
-global.nnnt = 'https://chat.whatsapp.com/DJXZNYZXixx9Zmb0gLPD0b'
+global.nnnt = 'XD'
 global.nnngrupo = nnnt //Grupo 3
 
-global.paypal = 'https://paypal.me/OficialGD'
+global.paypal = 'XD'
 global.donar = paypal
 
 //global.gataimg = fs.readFileSync('./media/menus/Menu3.jpg')
@@ -111,40 +111,40 @@ global.donar = paypal
 
 
 //⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
-global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮\n\n'
+global.rg = '╰⊱✅⊱ *RESULTADO | RESULT* ⊱✅⊱╮\n\n'
 global.resultado = rg
 
-global.ag = '╰⊱⚠️⊱ *𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼 | 𝙒𝘼𝙍𝙉𝙄𝙉𝙂* ⊱⚠️⊱╮\n\n'
+global.ag = '╰⊱⚠️⊱ *ADVERTÊNCIA | WARNING* ⊱⚠️⊱╮\n\n'
 global.advertencia = ag
 
-global.iig = '╰⊱❕⊱ *𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊́𝙉 | 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙊𝙉* ⊱❕⊱╮\n\n'
+global.iig = '╰⊱❕⊱ *INFORMAÇÃO | INFORMATION* ⊱❕⊱╮\n\n'
 global.informacion = iig
 
-global.fg = '╰⊱❌⊱ *𝙁𝘼𝙇𝙇𝙊́ | 𝙀𝙍𝙍𝙊𝙍* ⊱❌⊱╮\n\n'
+global.fg = '╰⊱❌⊱ *FALHA | ERROR* ⊱❌⊱╮\n\n'
 global.fallo = fg
 
-global.mg = '╰⊱❗️⊱ *𝙇𝙊 𝙐𝙎𝙊́ 𝙈𝘼𝙇 | 𝙐𝙎𝙀𝘿 𝙄𝙏 𝙒𝙍𝙊𝙉𝙂* ⊱❗️⊱╮\n\n'
+global.mg = '╰⊱❗️⊱ *USO ERRADO | USED IT WRONG* ⊱❗️⊱╮\n\n'
 global.mal = mg
 
-global.eeg = '╰⊱📩⊱ *𝙍𝙀𝙋𝙊𝙍𝙏𝙀 | 𝙍𝙀𝙋𝙊𝙍𝙏* ⊱📩⊱╮\n\n'
+global.eeg = '╰⊱📩⊱ *REPORTE | REPORT* ⊱📩⊱╮\n\n'
 global.envio = eeg
 
-global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n'
+global.eg = '╰⊱💚⊱ *SUCESSO | SUCESS* ⊱💚⊱╮\n\n'
 global.exito = eg
 
-//𝙀𝙅𝙀𝙈𝙋𝙇𝙊 | 𝙀𝙓𝘼𝙈𝙋𝙇𝙀
+//EXEMPLO | EXAMPLE
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
-//⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
+//⊱ ━━━━━.⋅ Informação | Information ⋅.━━━━ ⊰
 
-global.wm = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
-global.igfg = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
-global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
+global.wm = 'HarryBOT | 🤖'
+global.igfg = 'Harry-WA'
+global.wait = '*⌛ _carregando..._ ▬▬▬▭*'
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.multiplier = 60 // Cuanto más alto, más difícil subir de nivel | The higher, The harder levelup 
+global.multiplier = 60 // Quanto mais alto, mais difícil subir de nível | The higher, The harder levelup 
 
 global.rpg = {
   emoticon(string) {
